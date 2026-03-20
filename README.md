@@ -1,6 +1,6 @@
 # SABLE FEED
 
-Personal intelligence feed reader for MSP technical account management.
+Personal intelligence feed reader.
 
 ## Architecture
 
