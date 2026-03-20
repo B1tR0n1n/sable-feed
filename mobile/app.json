@@ -1,0 +1,45 @@
+{
+  "expo": {
+    "name": "SABLE FEED",
+    "slug": "sable-feed",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "scheme": "sable-feed",
+    "userInterfaceStyle": "dark",
+    "splash": {
+      "image": "./assets/splash-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#0a0908"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.b1tr0n1n.sablefeed",
+      "backgroundColor": "#0a0908"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#0a0908",
+        "foregroundImage": "./assets/android-icon-foreground.png",
+        "backgroundImage": "./assets/android-icon-background.png",
+        "monochromeImage": "./assets/android-icon-monochrome.png"
+      },
+      "package": "com.b1tr0n1n.sablefeed",
+      "backgroundColor": "#0a0908"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      "expo-router",
+      "expo-font",
+      "expo-sqlite"
+    ],
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "cc94290a-0b36-4203-a76f-f45fef583bd4"
+      }
+    }
+  }
+}

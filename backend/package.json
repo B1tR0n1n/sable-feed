@@ -1,0 +1,21 @@
+{
+  "name": "sable-feed-backend",
+  "version": "1.0.0",
+  "description": "SABLE FEED — RSS intelligence feed backend",
+  "type": "module",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "node --watch src/index.js",
+    "seed": "node src/seed.js"
+  },
+  "dependencies": {
+    "fastify": "^5.3.3",
+    "@fastify/cors": "^11.0.1",
+    "@fastify/multipart": "^9.0.3",
+    "better-sqlite3": "^11.9.1",
+    "rss-parser": "^3.13.0",
+    "node-cron": "^3.0.3",
+    "fast-xml-parser": "^5.2.3"
+  }
+}
